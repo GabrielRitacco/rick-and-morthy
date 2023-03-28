@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/23/17/30/abstract-1105851_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background-color: rgba(172, 255, 47, 0.854);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+header .logo-conteiner {
+  width: 10%;
+}
+
+header .logo {
+  margin: 30px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+header .titulo-principal {
+  width: 80%;
+}
+
+header .titulo-conteiner {
+  text-align: center;
+}
+
+header nav {
+  width: 50%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 5px;
+  margin: 5px;
+  color: beige;
+  background-color: blueviolet;
+  font-size: 18px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.synopsis h2 {
+  justify-content: center;
+  text-align: center;
+  background-color: violet;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.synopsis div {
+  background-color: lightblue;
+  justify-content: flex-start;
+  padding: 20px;
+  font-size: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.characters h2 {
+  justify-content: center;
+  text-align: center;
+  background-color: violet;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.grid-item {
+  background-color: lightblue;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.watch-the-show {
+  background-color: rgba(89, 255, 71, 0.195);
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.watch-the-show img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.watch-the-show div h2 {
+  padding: 20px;
+  margin: 20px;
+}
+
+.watch-the-show div p {
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.fun-facts div h2 {
+  justify-content: center;
+  text-align: center;
+  background-color: violet;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.fun-facts div ul {
+  background-color: lightblue;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: start;
+  padding: 30px;
+  margin: 20px;
+}
+
+.imagenes-autores {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.fun-facts div a img {
+  background-color: lightblue;
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgba(238, 130, 238, 0.327);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer div {
+  background-color: rgba(144, 238, 144, 0.267);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer div nav ul {
+  list-style: none;
+}
+
+footer div nav ul li {
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 880px) {
+  header {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer div {
+    margin: 10px;
+  }
+  footer div ul {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+}
